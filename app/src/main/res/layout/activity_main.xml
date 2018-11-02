@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="15dp">
+    <TextView
+        android:text="02583"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:textSize="20sp"
+        android:text="Лента"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#d62020"
+        android:layout_marginBottom="15dp"
+        android:text="10%"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:text="Показать"
+        android:textAllCaps="true" />
+</LinearLayout>
+<ImageView
+    android:layout_below="@id/linearLayout"
+    android:src="@drawable/lenta"
+    android:layout_width="match_parent"
+    android:scaleType="centerCrop"
+    android:layout_height="250dp"/>
+</RelativeLayout>
